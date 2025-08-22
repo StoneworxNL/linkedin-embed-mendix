@@ -1,0 +1,45 @@
+{
+  "name": "mendixlinkedinembed",
+  "widgetName": "MendixLinkedInEmbed",
+  "version": "1.0.0",
+  "description": "Mendix Pluggable Widget to embed linkedin content based on https://github.com/justinmahar/react-social-media-embed",
+  "copyright": "JL 2025",
+  "author": "JL",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "config": {
+    "projectPath": "../../",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "stoneworx",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^10.15.0",
+    "@types/big.js": "^6.0.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react-social-media-embed": "^2.5.18"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "react-native": "0.72.7"
+  },
+  "overrides": {
+    "react": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "react-native": "0.72.7"
+  }
+}

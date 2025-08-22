@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="stoneworx.mendixlinkedinembed.MendixLinkedInEmbed"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="false"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>LinkedIn Embed</name>
+    <description>
+        Mendix Pluggable Widget to embed linkedin content based on
+        https://github.com/justinmahar/react-social-media-embed
+    </description>
+    <studioProCategory>Social Media</studioProCategory>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <property key="url" type="expression" required="true" defaultValue="">
+                <caption>URL</caption>
+                <description>The URL of the social media embed.</description>
+                <returnType type="String" />
+            </property>
+            <property key="width" type="integer" defaultValue="550">
+                <caption>Width</caption>
+                <description>The width of the embedded content in pixels. Leave empty for default width.</description>
+            </property>
+            <property key="height" type="integer" defaultValue="550">
+                <caption>Height</caption>
+                <description>The height of the embedded content in pixels. Leave empty for default.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
