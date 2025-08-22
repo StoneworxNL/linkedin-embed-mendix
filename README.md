@@ -14,8 +14,6 @@ allows you to "(...) easily embed social media posts from (...) LinkedIn (...)".
 🔗
 [How to get an LinkedIn Post URL](https://github.com/justinmahar/react-social-media-embed?tab=readme-ov-file#how-do-you-get-a-linkedin-post-url)
 
-💭 Set the Captioned to true to enable captions for the post.
-
 <img alt="Configuration in Studio Pro" src="https://github.com/joaodelopes/linkedin-embed-mendix/blob/main/images/config.png" width="300px"/>
 
 ## Demo project
