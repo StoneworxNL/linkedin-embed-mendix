@@ -31,7 +31,7 @@ allows you to "(...) easily embed social media posts from (...) LinkedIn (...)".
 
 Let us know if you find any issues or if you have any feature requests.
 
-[## Related Widgets
+<!---## Related Widgets
 
 In case you want to embed posts from other social media platforms, the following Mendix Pluggable Widgets are available:
 
@@ -46,4 +46,4 @@ In case you want to embed posts from other social media platforms, the following
 -   Twitter/X
     -   💻 [Gihub](https://github.com/joaodelopes/twitter-x-embed-mendix)
 -   Youtube
-    -   💻 [Gihub](https://github.com/joaodelopes/youtube-embed-mendix)](url)
+    -   💻 [Gihub](https://github.com/joaodelopes/youtube-embed-mendix)](url)--->
